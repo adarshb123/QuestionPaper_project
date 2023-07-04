@@ -1,0 +1,183 @@
+/* styles.css */
+
+
+body
+{
+background-color: rgb(240, 154, 168);
+}
+
+.head
+{
+padding: 20px;
+letter-spacing: 1px;
+}
+.main
+{
+position: absolute;
+}
+.main-nav
+{
+float: left;
+list-style-type: none;
+margin-top: 25px;
+}
+.main-nav li
+{
+display: inline-block;
+}
+.main-nav li a
+{
+text-decoration: none;
+color: rgb(7, 6, 12) ;
+font: bold;
+padding: 4px 8px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+margin: 5px;
+}
+.main-nav li a:hover
+{
+background-color:  rgb(238, 117, 137);
+color: rgb(7, 6, 12);
+font :bold;
+}
+.main-nav li.active a
+{
+background-color: rgb(238, 117, 137);
+color: #000;
+font: bold;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.img {
+  width: 130%;
+}
+
+.text-block {
+  position: absolute;
+  top:40%; /* Adjust the top position as per your requirement */
+  left: 70%; /* Adjust the left position as per your requirement */
+  transform: translate(-50%, -50%);
+  background-color: rgb(202, 48, 133);
+  color: white;
+  font-size: smaller;
+}
+
+.centered {
+  position: absolute;
+  top: 5%; /* Adjust the top position as per your requirement */
+  left: 50%; /* Adjust the left position as per your requirement */
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(24, 42, 234);
+}
+
+.left {
+  position: absolute;
+  top: 10%; /* Adjust the top position as per your requirement */
+  left: 50%; /* Adjust the left position as per your requirement */
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(24, 42, 234);
+}
+
+.right {
+  position: absolute;
+  top:1%; /* Adjust the top position as per your requirement */
+  left: 49%; /* Adjust the left position as per your requirement */
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(234, 36, 36);
+}
+
+  
+  h1 {
+    color: hsl(0, 55%, 47%);
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="number"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  li h3 {
+    margin: 0;
+  }
+  
+  li p {
+    margin: 0;
+    color: #666;
+  }

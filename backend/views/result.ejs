@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question Paper Result</title>
+  <style>
+    /* CSS styles for the table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .filepath-link {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Question Paper Result</h1>
+  <% if (questionPaper) { %>
+    <table>
+        <tr>
+          <th>ID</th>
+          <th>Subject</th>
+          <th>Year</th>
+          <th>Filepath</th>
+          <th>Student Class</th>
+        </tr>
+        <tr>
+          <td><%= questionPaper.id %></td>
+          <td><%= questionPaper.subject %></td>
+          <td><%= questionPaper.year %></td>
+          <td><a href="<%= questionPaper.filepath %>" target="_blank">Download</a></td>
+          <td><%= questionPaper.student_class %></td>
+        </tr>
+      </table>
+  <% } else { %>
+    <p>Question paper not found.</p>
+  <% } %>
+</body>
+</html>

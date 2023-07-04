@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question Paper Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">   
+    <header>
+        <div class="head">
+        <div class="main">
+        <ul class="main-nav">
+        <li class="active"><a href="file:///D:/L1S2/IN1620%20Web%20Technologies/Assignment/my%20self/Home.html">Home</a></li>
+        <li>
+        <a href="file:///D:/L1S2/IN1620%20Web%20Technologies/Assignment/my%20self/Entertainment.html">my entertainment...</a></li>
+        <li>
+        <a href="file:///D:/L1S2/IN1620%20Web%20Technologies/Assignment/my%20self/contact.html">find me...</a></li>
+        </ul>
+        </div>
+        </div>
+        </header>   
+</head>
+<body>
+    <div class="container">
+        <img src="/girlstuding.png" alt="Girl Studying" style="width:100%;">
+        <div class="text-block">
+        </div>
+        <div class="centered">DIGIT CURE</div>
+        <div class="left">Growth Solutions</div>
+        <div class="right">Students Sample Question Papers To have a bright Future</div>
+        <h1 style="text-align: center;">Question Paper</h1>
+        <form id="searchForm">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="class">Class:</label>
+                    <select class="form-control" id="class">
+                        <option value="">-- Select Class --</option>
+                        <option value="8th">Class 8</option>
+                        <option value="9th">Class 9</option>
+                        <option value="10th">Class 10</option>
+                        <!-- Add more class options as needed -->
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="subject">Subject:</label>
+                    <select class="form-control" id="subject">
+                        <option value="">-- Select Subject --</option>
+                        <option value="maths">Math</option>
+                        <option value="science">Science</option>
+                        <option value="socialScience">Social Science</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="english">English</option>
+                        <!-- Add more subject options as needed -->
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="term">Years:</label>
+                    <select class="form-control" id="year">
+                        <option value="">-- Select Year --</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <!-- Add more term options as needed -->
+                    </select>
+                </div>
+            </div>
+            <button style="text-align:center;" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
